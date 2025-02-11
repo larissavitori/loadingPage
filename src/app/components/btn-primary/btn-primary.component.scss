@@ -1,0 +1,12 @@
+@keyframes blink {
+  0%, 100% {
+    background-color:  #545569; /* Cor original do botão */
+  }
+  50% {
+    background-color:#141a43; /* Cor alternativa para o efeito de piscar */
+  }
+}
+
+.btn-blink {
+  animation: blink 1s infinite;
+}

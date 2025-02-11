@@ -1,0 +1,17 @@
+.socials {
+  position: fixed;
+  top: 90%;
+  right: 10px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.floating-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.floating-icon:hover {
+  transform: scale(1.1);
+}
